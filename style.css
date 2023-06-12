@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(37, 37, 37);
+}
+
+.button-container {
+    border-radius: 7px;
+}
+
+button {
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    text-shadow: 0 2px 5px black;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    border-bottom: 2px solid silver;
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
